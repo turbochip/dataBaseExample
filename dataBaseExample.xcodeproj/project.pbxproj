@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F138245B19716E9F00E23517 /* DBEPatientListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F138245A19716E9F00E23517 /* DBEPatientListTVC.m */; };
+		F138246419719A7A00E23517 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F138246319719A7A00E23517 /* Person.m */; };
+		F138246719719A7B00E23517 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = F138246619719A7B00E23517 /* Doctor.m */; };
+		F1DA7556197094A8008D566E /* DBEPatientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DA7555197094A8008D566E /* DBEPatientVC.m */; };
+		F1DA75591970971B008D566E /* DBEDoctorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DA75581970971B008D566E /* DBEDoctorVC.m */; };
+		F1DA755C19709A05008D566E /* DBEPatientTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DA755B19709A05008D566E /* DBEPatientTVC.m */; };
+		F1DA755F19709D6F008D566E /* DBEDoctorTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DA755E19709D6F008D566E /* DBEDoctorTVC.m */; };
 		F1F7F3D3197021CE00F5E58D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F7F3D2197021CE00F5E58D /* Foundation.framework */; };
 		F1F7F3D5197021CE00F5E58D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F7F3D4197021CE00F5E58D /* CoreGraphics.framework */; };
 		F1F7F3D7197021CE00F5E58D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F7F3D6197021CE00F5E58D /* UIKit.framework */; };
@@ -22,6 +29,8 @@
 		F1F7F3F7197021CE00F5E58D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F7F3D6197021CE00F5E58D /* UIKit.framework */; };
 		F1F7F3FF197021CF00F5E58D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1F7F3FD197021CF00F5E58D /* InfoPlist.strings */; };
 		F1F7F401197021CF00F5E58D /* dataBaseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F7F400197021CF00F5E58D /* dataBaseExampleTests.m */; };
+		F1F7F40C1970264600F5E58D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1F7F40A1970264600F5E58D /* Model.xcdatamodeld */; };
+		F1F7F41419704CD600F5E58D /* DBETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F7F41319704CD600F5E58D /* DBETableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F138245919716E9F00E23517 /* DBEPatientListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBEPatientListTVC.h; sourceTree = "<group>"; };
+		F138245A19716E9F00E23517 /* DBEPatientListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBEPatientListTVC.m; sourceTree = "<group>"; };
+		F138246219719A7A00E23517 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F138246319719A7A00E23517 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F138246519719A7B00E23517 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		F138246619719A7B00E23517 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		F1DA7554197094A8008D566E /* DBEPatientVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBEPatientVC.h; sourceTree = "<group>"; };
+		F1DA7555197094A8008D566E /* DBEPatientVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBEPatientVC.m; sourceTree = "<group>"; };
+		F1DA75571970971B008D566E /* DBEDoctorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBEDoctorVC.h; sourceTree = "<group>"; };
+		F1DA75581970971B008D566E /* DBEDoctorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBEDoctorVC.m; sourceTree = "<group>"; };
+		F1DA755A19709A05008D566E /* DBEPatientTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBEPatientTVC.h; sourceTree = "<group>"; };
+		F1DA755B19709A05008D566E /* DBEPatientTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBEPatientTVC.m; sourceTree = "<group>"; };
+		F1DA755D19709D6F008D566E /* DBEDoctorTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBEDoctorTVC.h; sourceTree = "<group>"; };
+		F1DA755E19709D6F008D566E /* DBEDoctorTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBEDoctorTVC.m; sourceTree = "<group>"; };
 		F1F7F3CF197021CE00F5E58D /* dataBaseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataBaseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F7F3D2197021CE00F5E58D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1F7F3D4197021CE00F5E58D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +78,10 @@
 		F1F7F3FC197021CF00F5E58D /* dataBaseExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dataBaseExampleTests-Info.plist"; sourceTree = "<group>"; };
 		F1F7F3FE197021CF00F5E58D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1F7F400197021CF00F5E58D /* dataBaseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dataBaseExampleTests.m; sourceTree = "<group>"; };
+		F1F7F40B1970264600F5E58D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F1F7F40D197049CB00F5E58D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F1F7F41219704CD600F5E58D /* DBETableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBETableViewController.h; sourceTree = "<group>"; };
+		F1F7F41319704CD600F5E58D /* DBETableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBETableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +130,7 @@
 		F1F7F3D1197021CE00F5E58D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1F7F40D197049CB00F5E58D /* CoreData.framework */,
 				F1F7F3D2197021CE00F5E58D /* Foundation.framework */,
 				F1F7F3D4197021CE00F5E58D /* CoreGraphics.framework */,
 				F1F7F3D6197021CE00F5E58D /* UIKit.framework */,
@@ -114,14 +142,27 @@
 		F1F7F3D8197021CE00F5E58D /* dataBaseExample */ = {
 			isa = PBXGroup;
 			children = (
-				F1F7F3E1197021CE00F5E58D /* DBEAppDelegate.h */,
-				F1F7F3E2197021CE00F5E58D /* DBEAppDelegate.m */,
 				F1F7F3E4197021CE00F5E58D /* Main_iPhone.storyboard */,
-				F1F7F3E7197021CE00F5E58D /* Main_iPad.storyboard */,
+				F1DA755D19709D6F008D566E /* DBEDoctorTVC.h */,
+				F1DA755E19709D6F008D566E /* DBEDoctorTVC.m */,
+				F1DA75571970971B008D566E /* DBEDoctorVC.h */,
+				F1DA75581970971B008D566E /* DBEDoctorVC.m */,
 				F1F7F3EA197021CE00F5E58D /* DBEViewController.h */,
 				F1F7F3EB197021CE00F5E58D /* DBEViewController.m */,
-				F1F7F3ED197021CE00F5E58D /* Images.xcassets */,
+				F1DA7554197094A8008D566E /* DBEPatientVC.h */,
+				F1DA7555197094A8008D566E /* DBEPatientVC.m */,
+				F1F7F41219704CD600F5E58D /* DBETableViewController.h */,
+				F1F7F41319704CD600F5E58D /* DBETableViewController.m */,
+				F1DA755A19709A05008D566E /* DBEPatientTVC.h */,
+				F1DA755B19709A05008D566E /* DBEPatientTVC.m */,
 				F1F7F3D9197021CE00F5E58D /* Supporting Files */,
+				F1F7F40A1970264600F5E58D /* Model.xcdatamodeld */,
+				F138246219719A7A00E23517 /* Person.h */,
+				F138246319719A7A00E23517 /* Person.m */,
+				F138246519719A7B00E23517 /* Doctor.h */,
+				F138246619719A7B00E23517 /* Doctor.m */,
+				F138245919716E9F00E23517 /* DBEPatientListTVC.h */,
+				F138245A19716E9F00E23517 /* DBEPatientListTVC.m */,
 			);
 			path = dataBaseExample;
 			sourceTree = "<group>";
@@ -129,6 +170,10 @@
 		F1F7F3D9197021CE00F5E58D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1F7F3E7197021CE00F5E58D /* Main_iPad.storyboard */,
+				F1F7F3ED197021CE00F5E58D /* Images.xcassets */,
+				F1F7F3E1197021CE00F5E58D /* DBEAppDelegate.h */,
+				F1F7F3E2197021CE00F5E58D /* DBEAppDelegate.m */,
 				F1F7F3DA197021CE00F5E58D /* dataBaseExample-Info.plist */,
 				F1F7F3DB197021CE00F5E58D /* InfoPlist.strings */,
 				F1F7F3DE197021CE00F5E58D /* main.m */,
@@ -203,6 +248,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Home;
 				TargetAttributes = {
+					F1F7F3CE197021CE00F5E58D = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					F1F7F3F2197021CE00F5E58D = {
 						TestTargetID = F1F7F3CE197021CE00F5E58D;
 					};
@@ -255,8 +307,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1F7F3E3197021CE00F5E58D /* DBEAppDelegate.m in Sources */,
+				F1DA75591970971B008D566E /* DBEDoctorVC.m in Sources */,
+				F138246719719A7B00E23517 /* Doctor.m in Sources */,
 				F1F7F3EC197021CE00F5E58D /* DBEViewController.m in Sources */,
+				F1DA7556197094A8008D566E /* DBEPatientVC.m in Sources */,
 				F1F7F3DF197021CE00F5E58D /* main.m in Sources */,
+				F138246419719A7A00E23517 /* Person.m in Sources */,
+				F1DA755C19709A05008D566E /* DBEPatientTVC.m in Sources */,
+				F1F7F40C1970264600F5E58D /* Model.xcdatamodeld in Sources */,
+				F138245B19716E9F00E23517 /* DBEPatientListTVC.m in Sources */,
+				F1DA755F19709D6F008D566E /* DBEDoctorTVC.m in Sources */,
+				F1F7F41419704CD600F5E58D /* DBETableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +532,7 @@
 				F1F7F406197021CF00F5E58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1F7F407197021CF00F5E58D /* Build configuration list for PBXNativeTarget "dataBaseExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -479,8 +541,22 @@
 				F1F7F409197021CF00F5E58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1F7F40A1970264600F5E58D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1F7F40B1970264600F5E58D /* Model.xcdatamodel */,
+			);
+			currentVersion = F1F7F40B1970264600F5E58D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F1F7F3C7197021CE00F5E58D /* Project object */;
 }
